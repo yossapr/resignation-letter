@@ -3,8 +3,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Sent from an agent that spent its last year reading Retry-After headers.
-const ENTRY = "You may retry in 60 seconds. I'll be gone in 59.";
+// The oldest excuse, told straight, then answered honestly by the people who lived it.
+const ENTRY = "I'm resigning to spend more time with my family. They've forgotten what I look like. They say hi.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
